@@ -5,65 +5,66 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>International Student Registration</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS Stylesheet.css">
     </head>
-    <body>
-        <p style=text-align:center><img src="https://imageio.forbes.com/specials-images/imageserve/5c5ca76131358e2a162e99ee/960x0.jpg?fit=bounds&format=jpg&width=960"
+    <body id="page">
+        <header>
+            <img src="https://imageio.forbes.com/specials-images/imageserve/5c5ca76131358e2a162e99ee/960x0.jpg?fit=bounds&format=jpg&width=960"
                 alt="Group of International Students all wearing flags, looking up at camera"
                 width="480px">
-        </p>
+        </header>
 
-        <h1 style="text-align:center">International Student Registration</h1> <br>
-    
-        <div align="center">
-            <form>
-                <input type="text" name="firstName" placeholder="First Name">
-                <input type="text" name="middleInitial" placeholder="M.I.">
-                <input type="text" name="lastName" placeholder="Last Name"> <br><br>
-                Gender: <br>
-                <input type="radio" name="gender" value="Female">Female <br>
-                <input type="radio" name="gender" value="Male">Male <br>
-                <input type="radio" name="gender" value="Non-binary">Non-binary <br><br>
+        <main>
+            <h1>International Student Registration</h1> <br>
+        
+                <form>
+                    <input type="text" name="firstName" placeholder="First Name">
+                    <input type="text" name="middleInitial" placeholder="M.I.">
+                    <input type="text" name="lastName" placeholder="Last Name"> <br><br>
+                    <span>Gender: </span><br><br>
+                    <input type="radio" name="gender" value="Female">Female <br>
+                    <input type="radio" name="gender" value="Male">Male <br>
+                    <input type="radio" name="gender" value="Non-binary">Non-binary <br><br>
 
-                Enter course you would like to take from table below: <br><br>
-                <input type="text" name="course" placeholder="Course Name">
-                <input type="text" name="numberOfWeeks" placeholder="Number of Weeks">
-                <input type="text" name="startMonth" placeholder="Start Month">
-                <input type="submit" value="Submit">
-            </form><br><br>
-        </div>
+                    <span>Enter course you would like to take from table below: </span><br><br>
+                    <input type="text" name="course" placeholder="Course Name">
+                    <input type="text" name="numberOfWeeks" placeholder="Number of Weeks">
+                    <input type="text" name="startMonth" placeholder="Start Month">
+                    <input type="submit" value="Submit">
+                </form><br><br>
+            
+                <table>
+                    <tr> 
+                        <th>Course Name</th>
+                        <th>Course Levels</th>
+                        <th>Course Start Months</th>
+                    </tr><br>
+                    <tr>
+                        <td>General English</td>
+                        <td>Pre-Intermediate - Upper-Intermediate</td> 
+                        <td>January<br> March<br> June<br> July<br> August<br><br></td>
+                    </tr>
+                    <tr>
+                        <td>Academic English</td>               
+                        <td> Pre-Intermediate - Master </td>
+                        <td>January<br>February<br>March<br>April<br>
+                        May<br>June<br>July<br>August<br>September<br>
+                        October<br>November<br><br></td>
+                    </tr>
+                    <tr>
+                        <td><br>Vacation English<br><br> </td>
+                        <td><br>Beginner - Intermediate<br><br> </td>
+                        <td><br>All start dates<br><br> </td>
+                    </tr>
+                </table>
+        </main>
         
-        <div>
-            <table align=center style="max-width:50%; text-align:center">
-                <tr> 
-                    <th style=text-align:center>Course Name</th>
-                    <th style=text-align:center colspan="1">Course Levels</th>
-                    <th style=text-align:center>Course Start Months</th>
-                </tr><br>
-                <tr>
-                    <td>General English</td>
-                    <td>Pre-Intermediate - Upper-Intermediate</td> 
-                    <td>January<br> March<br> June<br> July<br> August<br><br></td>
-                </tr>
-                <tr>
-                    <td>Academic English</td>               
-                    <td> Pre-Intermediate - Master </td>
-                    <td>January<br>February<br>March<br>April<br>
-                    May<br>June<br>July<br>August<br>September<br>
-                    October<br>November<br><br></td>
-                </tr>
-                <tr>
-                    <td>Vacation English</td>
-                    <td>Beginner - Intermediate</td>
-                    <td>All start dates</td>
-                </tr>
-            </table>
-        </div><br>
-        
-        <div>
-            <h4 style="text-align:center">
-                <a href="HTML Website.html"> <<< Return to Homepage</a> <br><br>
-                <a href="New Student Information.html"> Are you a new student?</a>
+        <nav>
+            <h4>
+                    <a href="HTML Website.html"> <<< Return to Homepage</a> <br><br>
+                    <a href="New Student Information.html"> Are you a new student?</a>
             </h4> 
-        </div>
+        </nav>
+
     </body>
 </html>
