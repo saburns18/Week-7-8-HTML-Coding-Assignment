@@ -24,7 +24,6 @@ body > header {
     background-color: #0c457d;
     grid-area: nav;
     text-align: center;
-    max-width: ;
   }
 
   a:link {
